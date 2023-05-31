@@ -731,7 +731,34 @@ h3.my-profession
     height: 50px;
     padding: 0 50px;
 }
+/* footer */
+.footer 
+{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a 
+{
+    text-decoration: none;
+    color: #9c6d08;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.footer hr 
+{
+    background: #e4b551;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
 
+.footer p 
+{
+    padding-bottom: 15px;
+    color: #9c6d08;
+
+}
 /* Media Query */
 @media (max-width: 1199px)
 {
