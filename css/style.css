@@ -626,6 +626,7 @@ h3.my-profession
 {
     color: var(--text-black-900);
     font-weight: 400;
+    text-decoration: none;
 }
 .portfolio .portfolio-item
 {
