@@ -296,12 +296,12 @@ h3.my-profession
 .home-info p
 {
     margin-bottom: 70px;
-    font-size: 20px
-    color: var(--text-black-700);
+    color: var(--text-black-700)
 }
 .home .home-img
 {
     flex: 0 0 40%;
+    height: ;
     max-width: 40%;
     text-align: center;
     position: relative;
@@ -368,11 +368,20 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
-.about .about-content .about-text details summary p
+.about .about-content .about-text details summary
 {
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
+}
+.about .about-content .about-text details summary span.clear
+{
+    color: var(--skin-color);
+    font-style: italic;
+}
+.about .about-content .about-text details summary span.clear span.face .fa
+{
+    font-size: x-large;
 }
 .about .about-content .personal-info
 {
@@ -621,6 +630,12 @@ h3.my-profession
 {
     color: var(--text-black-900);
     font-weight: 500;
+}
+.portfolio .portfolio-heading p
+{
+    color: var(--text-black-900);
+    font-weight: 400;
+    text-decoration: none;
 }
 .portfolio .portfolio-item
 {
